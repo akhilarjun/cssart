@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background: #cad9e2;
+    min-height: 100vh;
+}
+
+.hero{
+    padding: 50px 10px;
+    text-align: center;
+    background-color: rgb(4, 15, 22);
+    color: #eee;
+
+    h1{
+        font-size: 50px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    div{
+        font-weight: 100;
+        font-size: 20px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#gallery {
+    display: grid;
+    gap: 10px;
+    //grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+    .post {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 2px 2px 7px 2px #ccc;
+        .post-tile {
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+}

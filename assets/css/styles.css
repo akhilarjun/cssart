@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  background: #cad9e2;
+  min-height: 100vh;
+}
+
+.hero {
+  padding: 50px 10px;
+  text-align: center;
+  background-color: #040f16;
+  color: #eee;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero div {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#gallery {
+  display: -ms-grid;
+  display: grid;
+  gap: 10px;
+}
+
+#gallery .post {
+  background-color: #fff;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 7px 2px #ccc;
+          box-shadow: 2px 2px 7px 2px #ccc;
+}
+
+#gallery .post .post-tile {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */
